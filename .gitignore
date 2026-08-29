@@ -1,0 +1,27 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data (large files should never be committed)
+data/raw/*.csv
+data/processed/*.parquet
+data/processed/*.duckdb
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
