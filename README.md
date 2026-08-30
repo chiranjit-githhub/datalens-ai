@@ -319,12 +319,4 @@ formatting the raw evidence — the app never fully breaks.
 - Support for additional LLM providers via the same tool-schema abstraction
 - Richer MCC → category mapping (or a lookup table shipped with the dataset)
 
----
-
-## License
-
-MIT — see [LICENSE](LICENSE). Use, modify, and share freely; attribution appreciated.
-
----
-
 <p align="center">Built for the Razorpay Buildathon — Open Track.</p>
