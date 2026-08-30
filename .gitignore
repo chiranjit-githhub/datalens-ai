@@ -9,6 +9,8 @@ __pycache__/
 data/raw/*.csv
 data/processed/*.parquet
 data/processed/*.duckdb
+DATA/*.csv
+
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
@@ -17,6 +19,7 @@ data/processed/*.duckdb
 
 # OS
 .DS_Store
+Thumbs.db
 
 # Outputs
 outputs/*
